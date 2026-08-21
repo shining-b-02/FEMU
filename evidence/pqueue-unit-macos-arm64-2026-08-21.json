@@ -1,0 +1,31 @@
+{
+  "checkpatch": {
+    "errors": 0,
+    "warnings": 0
+  },
+  "environment": {
+    "compiler": "Apple clang version 17.0.0 (clang-1700.4.4.1)",
+    "machine": "arm64",
+    "platform": "macOS 26.5.2 (25F84)",
+    "python": "3.14.0"
+  },
+  "measurement_scope": "FEMU priority queue unit test",
+  "result": {
+    "duration_seconds": 0.02,
+    "failed": 0,
+    "passed": 3,
+    "subtests": [
+      "/femu/pqueue/pop-order",
+      "/femu/pqueue/change-preupdated-priority",
+      "/femu/pqueue/randpop-bubbles-replacement"
+    ]
+  },
+  "schema_version": 1,
+  "source": {
+    "base_commit": "39664d2424eaa4ebdcf8400f8973d3ad445644a6",
+    "pqueue_sha256": "4d607a369fdbd1badb6e5fe1ff474a188af3244f64470869825aad9e650681b7",
+    "test_commit": "c268210a4a13c0f0d569c0c315bf2b887621e155",
+    "test_source_sha256": "19e19a1b537e9882da12b541f2ee547c1589cefb6afbac755fbd6ddaa89ddd07"
+  },
+  "suite": "qemu:unit / test-femu-pqueue"
+}

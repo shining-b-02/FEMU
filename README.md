@@ -5,6 +5,8 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Platform](https://img.shields.io/badge/Platform-x86--64-brightgreen)](https://shields.io/)
 
+> 이 fork의 한국어 기여 요약은 [README.ko.md](README.ko.md), 실제 테스트와 upstream PR 분석은 [docs/CONTRIBUTION_ANALYSIS_KO.md](docs/CONTRIBUTION_ANALYSIS_KO.md)에 있습니다. 아래 문서는 upstream FEMU의 원문을 유지합니다.
+
 ```
   ______ ______ __  __ _    _
  |  ____|  ____|  \/  | |  | |
